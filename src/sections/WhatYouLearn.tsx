@@ -17,7 +17,7 @@ export default function WhatYouLearn() {
         </Card>
 
         <Card title="Język wzorców ruchu" icon="🧩">
-          Push, pull, hinge, squat, lunge, rotacja i stabilizacja.
+          Push, pull, hinge, squat, lunge, rotacja i stabilizacja – wraz z językiem opisującym zakres ruchu, kontrolę i oddech.
         </Card>
 
         <Card title="Profesjonalne korekty" icon="💬">

@@ -1,4 +1,5 @@
 import { Section, H2, Lead, ButtonLink, Muted } from "./_ui";
+import { FaFacebook, FaInstagram } from "react-icons/fa";
 
 export default function Enroll() {
   const email = "bartosznowickihq@gmail.com";
@@ -15,13 +16,13 @@ export default function Enroll() {
 
       <div style={{ marginBottom: 20 }}>
         <ButtonLink href={`mailto:${email}`} variant="primary">
-          Zapisz się mailowo
+          Zapisz się
         </ButtonLink>
       </div>
 
       <Muted>
         Masz szybkie pytanie?
-        Napisz na WhatsApp.
+        Napisz do mnie na WhatsApp.
         Często prowadzę zajęcia i nie zawsze mogę odebrać telefon,
         ale na wiadomości odpowiadam do końca dnia.
       </Muted>
@@ -33,25 +34,27 @@ export default function Enroll() {
       </div>
 
       <div style={{ marginTop: 24 }}>
-        <Muted>
-          Facebook:{" "}
+        <div style={{ display: "flex", gap: 16, alignItems: "center", flexWrap: "wrap" }}>
           <a
             href="https://www.facebook.com/profile.php?id=61587856476781"
             target="_blank"
             rel="noreferrer"
+            style={{ display: "flex", alignItems: "center", gap: 8 }}
           >
+            <FaFacebook size={18} />
             englishinmovement
           </a>
-          <br />
-          Instagram:{" "}
+
           <a
             href="https://www.instagram.com/englishinmovement.pl/"
             target="_blank"
             rel="noreferrer"
+            style={{ display: "flex", alignItems: "center", gap: 8 }}
           >
+            <FaInstagram size={18} />
             @englishinmovement.pl
           </a>
-        </Muted>
+        </div>
       </div>
     </Section>
   );

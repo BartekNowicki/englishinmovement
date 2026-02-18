@@ -23,14 +23,14 @@ export default function Hero() {
 
         <p style={{ fontSize: 18, lineHeight: 1.7, maxWidth: 760 }}>
           <strong>English in Movement</strong> to specjalistyczne szkolenie
-          dla instruktorów Pilates, jogi, fitnessu i trenerów,
+          dla instruktorów sportu, Pilatesu, jogi, fitnessu i trenerów,
           którzy pracują w języku angielskim i chcą brzmieć
-          precyzyjnie oraz zawodowo.
+          precyzyjnie oraz profesjonalnie.
         </p>
 
         <div style={{ marginTop: 24 }}>
           <ButtonLink href={`mailto:${email}`} variant="primary">
-            Zapisz się mailowo
+            Zapisz się
           </ButtonLink>
         </div>
       </Container>

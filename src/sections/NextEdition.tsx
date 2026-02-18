@@ -9,6 +9,10 @@ export default function NextEdition() {
         Marzec 2026 • 6 kolejnych tygodni • ul. Dobra, Powiśle, Warszawa
       </Lead>
 
+      <Lead>
+              Wybierz jedną z dostępnych grup:
+      </Lead>
+
       <Row>
         <Card title="Wtorek" icon="🗓️">12:00</Card>
         <Card title="Czwartek" icon="🗓️">12:00</Card>
