@@ -1,21 +1,21 @@
 import Hero from "../sections/Hero";
 import ForWho from "../sections/ForWho";
-import HowIWork from "../sections/HowIWork";
-import WhereSessions from "../sections/WhereSessions";
-import FirstSession from "../sections/FirstSession";
+import WhatYouLearn from "../sections/WhatYouLearn";
+import CourseStructure from "../sections/CourseStructure";
+import NextEdition from "../sections/NextEdition";
 import AboutMe from "../sections/AboutMe";
-import CTA from "../sections/CTA";
+import Enroll from "../sections/Enroll";
 
 export default function HomePage() {
   return (
     <>
       <Hero />
       <ForWho />
-      <HowIWork />
-      <WhereSessions />
-      <FirstSession />
+      <WhatYouLearn />
+      <CourseStructure />
+      <NextEdition />
       <AboutMe />
-      <CTA />
+      <Enroll />
     </>
   );
 }
