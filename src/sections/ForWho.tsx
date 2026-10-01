@@ -2,35 +2,56 @@ import { Section, H2, Lead, Row, Card } from "./_ui";
 
 export default function ForWho() {
   return (
-    <Section>
-      <H2>Dla kogo jest ten kurs</H2>
+      <Section>
+        <H2>Dla kogo są te lekcje</H2>
 
-      <Lead>
-        Dla polskich specjalistów ruchu, którzy znają angielski na poziomie
-        komunikatywnym, ale chcą mówić precyzyjnie i bez wahania
-        podczas prowadzenia zajęć.
-      </Lead>
+        <Lead>
+          Dla osób pracujących z ruchem i ciałem, które znają angielski,
+          ale chcą swobodniej, precyzyjniej i bardziej naturalnie
+          komunikować się z klientami.
+        </Lead>
 
-      <Row>
-        <Card title="Instruktorzy Pilates" icon="🧘">
-          Prowadzisz sesje 1:1 lub grupowe i chcesz brzmieć naturalnie,
-          a nie tłumaczyć dosłownie z polskiego.
-        </Card>
+        <Row>
+          <Card title="Trenerzy personalni" icon="🏋️">
+            Prowadzenie treningu, instrukcje, korekta techniki
+            i naturalna rozmowa z klientem.
+          </Card>
 
-        <Card title="Nauczyciele jogi" icon="🧠">
-          Pracujesz z klientami międzynarodowymi
-          i potrzebujesz jasnej komunikacji.
-        </Card>
+          <Card title="Trenerzy medyczni" icon="🎯">
+            Język związany z ruchem, ograniczeniami, powrotem
+            do aktywności i bezpiecznym progresowaniem ćwiczeń.
+          </Card>
 
-        <Card title="Trenerzy fitness" icon="🏋️">
-          Chcesz klarownie mówić o technice,
-          tempie i progresji.
-        </Card>
+          <Card title="Fizjoterapeuci" icon="🩺">
+            Wywiad, rozmowa o bólu i funkcji oraz jasne
+            objaśnianie ćwiczeń i zaleceń.
+          </Card>
 
-        <Card title="Trenerzy sportowi / WF" icon="🏃">
-          Prowadzisz zajęcia w środowisku mieszanym językowo.
-        </Card>
-      </Row>
-    </Section>
+          <Card title="Instruktorzy Pilatesu" icon="🧘">
+            Cueing, ustawienie ciała, oddech, kierunki ruchu
+            oraz prowadzenie sesji po angielsku.
+          </Card>
+
+          <Card title="Instruktorzy fitness i jogi" icon="🤸">
+            Precyzyjne instrukcje, tempo, pozycje, modyfikacje
+            i kontakt z klientami międzynarodowymi.
+          </Card>
+
+          <Card title="Trenerzy sportowi" icon="🏃">
+            Komunikacja podczas treningu, nauczania techniki
+            i pracy ze sportowcem.
+          </Card>
+
+          <Card title="Nauczyciele WF" icon="🏀">
+            Prowadzenie zajęć i wydawanie jasnych instrukcji
+            w środowisku anglojęzycznym.
+          </Card>
+
+          <Card title="Inni specjaliści ruchu" icon="💬">
+            Jeśli zawodowo pracujesz z ciałem, ruchem lub sportem,
+            lekcje możemy dopasować do Twojej specjalizacji.
+          </Card>
+        </Row>
+      </Section>
   );
 }

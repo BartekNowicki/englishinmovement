@@ -1,33 +1,36 @@
 import { Section, H2, Lead, Row, Card } from "./_ui";
 
 export default function WhatYouLearn() {
-  return (
-    <Section tone="soft">
-      <H2>Czego nauczysz się podczas kursu</H2>
+    return (
+        <Section tone="soft">
+            <H2>Co będziemy ćwiczyć</H2>
 
-      <Lead>
-        Program oparty jest na realnych sytuacjach z sali treningowej.
-        Wszystko możesz zastosować natychmiast.
-      </Lead>
+            <Lead>
+                Pracujemy na realnych sytuacjach z treningu i terapii.
+                Tematy dopasowujemy do Twojej specjalizacji i codziennej pracy z klientem.
+            </Lead>
 
-      <Row>
-        <Card title="Prowadzenie sesji od A do Z" icon="🎯">
-          Rozgrzewka, część techniczna i zakończenie —
-          spójnie po angielsku.
-        </Card>
+            <Row>
+                <Card title="Instrukcje i cueing" icon="🎯">
+                    Jak jasno opisywać pozycję, kierunek ruchu, tempo,
+                    oddech i sposób wykonania ćwiczenia.
+                </Card>
 
-        <Card title="Język wzorców ruchu" icon="🧩">
-          Push, pull, hinge, squat, lunge, rotacja i stabilizacja – wraz z językiem opisującym zakres ruchu, kontrolę i oddech.
-        </Card>
+                <Card title="Anatomia i biomechanika" icon="🧩">
+                    Jak naturalnie mówić o ruchu, stawach, mięśniach,
+                    zakresach ruchu, obciążeniu i kontroli.
+                </Card>
 
-        <Card title="Profesjonalne korekty" icon="💬">
-          Jak poprawiać technikę jasno i bez niezręczności.
-        </Card>
+                <Card title="Korekta ruchu" icon="💬">
+                    Jak poprawiać technikę, proponować zmianę
+                    i przekazywać wskazówki bez tłumaczenia zdań w głowie.
+                </Card>
 
-        <Card title="Bezpieczeństwo i ból" icon="🛡️">
-          Jak mówić o dyskomforcie i modyfikacjach ćwiczeń.
-        </Card>
-      </Row>
-    </Section>
-  );
+                <Card title="Ból i ograniczenia" icon="🛡️">
+                    Jak pytać o ból, dyskomfort, wcześniejsze urazy
+                    i dostosować komunikację do aktualnych możliwości klienta.
+                </Card>
+            </Row>
+        </Section>
+    );
 }
